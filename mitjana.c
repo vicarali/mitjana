@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
-    float suma=0.0;
+    float resta=0.0;
     float mitjana=0.0;
     float nou_valor=0.0;
     int numero_repeticions=0;
     char consulta='s';
 
     while(consulta=='s') {
-        printf("Dona la següent dada: ");
+        printf("Dona la segï¿½ent dada: ");
         scanf("%f",&nou_valor);
         suma=suma+nou_valor;
         numero_repeticions=numero_repeticions+1;
@@ -16,6 +16,6 @@ int main() {
     }
 
     mitjana=suma/numero_repeticions;
-    printf("La mitjana resultant és: %.2f\n",mitjana);
+    printf("La mitjana resultant ï¿½s: %.2f\n",mitjana);
     return 0;
 }
